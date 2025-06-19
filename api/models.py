@@ -6,3 +6,4 @@ class User(BaseModel):
     created_at: str
     avatar_url: str
     bio: str
+

@@ -6,7 +6,7 @@ security = HTTPBasic()
 
 USERS = {
     "elvis": "elvis_mot_de_passe",
-    "admin": "admin"
+    "admin": "admin123"
 }
 
 def check_credentials(credentials: HTTPBasicCredentials = Depends(security)):
@@ -29,3 +29,5 @@ def check_credentials(credentials: HTTPBasicCredentials = Depends(security)):
         )
 
     return username
+
+

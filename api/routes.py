@@ -72,3 +72,4 @@ def get_user_by_login(login: str, request: Request):
                 }
             )
     raise HTTPException(status_code=404, detail="Utilisateur non trouvé")
+
